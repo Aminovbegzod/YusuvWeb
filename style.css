@@ -84,11 +84,12 @@ nav ul li a:hover {
 }
   header{
     width: 400px;
+    height: 30px;
   }
   .git{
     position: absolute;
-    left: 355px;
-    top: 2845px;
+    left: 350px;
+    top: 2730px;
   }
   
   html{
@@ -97,8 +98,8 @@ nav ul li a:hover {
   }
   .youtube{
     position: absolute;
-    left: 305px;
-    top: 2845px;
+    left: 290px;
+    top: 2730px;
   }
 
   nav ul.active {
