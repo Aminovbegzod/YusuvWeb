@@ -271,6 +271,7 @@ body.light-mode .dark-mode-toggle {
 .active{
   background-color: #121212;
   border: 2px solid #28a745;
+  border-radius: 20px;
 }
 b{
   color: #28a745;
