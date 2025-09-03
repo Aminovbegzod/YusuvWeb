@@ -49,7 +49,9 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--highlight-color);
 }
-
+.contact-links{
+  display: flex;
+}
 .dark-mode-toggle,
 .mobile-menu-icon {
   cursor: pointer;
@@ -86,21 +88,19 @@ nav ul li a:hover {
     width: 400px;
     height: 30px;
   }
-  .git{
-    position: absolute;
-    left: 350px;
-    top: 2730px;
+  .hero-container{
+    order: 1;
+
   }
-  
+  .hero-text{
+    order: 2;
+  }
+ 
   html{
     padding: 0px 20px;
     color: white;
   }
-  .youtube{
-    position: absolute;
-    left: 290px;
-    top: 2730px;
-  }
+
 
   nav ul.active {
     display: flex;
@@ -109,6 +109,12 @@ nav ul li a:hover {
 
   .mobile-menu-icon {
     display: block;
+  }
+  .contact-links{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
   }
 }
 
